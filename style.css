@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-around;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin:100px;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgb(163, 226, 228);
+}
+.design{
+    display: flex;
+    background-color: rgb(148, 197, 197);
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    flex-direction: row;
+    -ms-flex-order: initial;
+    justify-content: first baseline;
+    padding: 0px;
+    margin:10px;
+    opacity: 1;
+    font-size: 32px;
+}
+.design:hover img{
+ opacity: 0.5;  
+}
+.design:hover a{
+    opacity: 1;
+}
+body{
+    background-color: lavenderblush;
+    margin:0px;
+}
+h1{
+    color: black;
+}
